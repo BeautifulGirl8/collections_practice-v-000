@@ -51,7 +51,7 @@ end
 
 def kesha_maker(array)
   binding.pry
-  newarray =[]
+  newarray = Array.new
   array.each { |name|
 gsub[3] ="$"
   >> newarray
