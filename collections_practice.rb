@@ -54,7 +54,7 @@ def kesha_maker(array)
   newarray = Array.new
   array.each {
     |name|
-gsub[3] ="$"
+gsub[3, "$"]
   >> newarray
   binding.pry
 }
