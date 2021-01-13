@@ -67,9 +67,8 @@ def kesha_maker(array)
 newarray << name[3] = "$"
 
 }
-end
 return newarray
-
+end
 
 
 
