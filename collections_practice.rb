@@ -52,7 +52,7 @@ end
 def kesha_maker(array)
 
   newarray = Array.new
-  array.each { 
+  array.each {
     |name|
 gsub[3] ="$"
   >> newarray
