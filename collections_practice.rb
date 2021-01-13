@@ -1,4 +1,4 @@
-require 'pry'
+
 
 
 def sort_array_asc(array)
@@ -49,17 +49,38 @@ def reverse_array(array)
 end
 
 
+
+
+
+
+
+
+
+
+
+
 def kesha_maker(array)
 
   newarray = Array.new
   array.each {
     |name|
-name.gsub[3, "$"]
+name[3] = "$"
   >> newarray
   binding.pry
 }
 end
 return newarray
+
+
+
+
+
+
+
+
+
+
+
 
 def find_a(array)
 array.select { |str| str.start_with?('a') }
