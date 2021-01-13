@@ -64,9 +64,9 @@ def kesha_maker(array)
   newarray = Array.new
   array.each {
     |name|
-newarray << 
+newarray <<
 name[3] = "$"
- 
+
 }
 return newarray
 end
