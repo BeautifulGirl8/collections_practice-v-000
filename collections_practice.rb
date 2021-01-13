@@ -47,8 +47,12 @@ def reverse_array(array)
 end
 
 
-
-
+def kesha_maker(array)
+  array.each { |x| 
+  x.to_s.split(' ').MyString.insert 3, "$".join(' ')
+  puts x  
+}
+end 
 
 
 def find_a(array)
