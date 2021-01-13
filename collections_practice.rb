@@ -58,8 +58,8 @@ gsub[3] ="$"
   >> newarray
   binding.pry
 }
+end 
 return newarray
-end
 
 def find_a(array)
 array.select { |str| str.start_with?('a') }
