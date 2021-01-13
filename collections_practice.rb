@@ -58,7 +58,7 @@ gsub[3] ="$"
   >> newarray
   binding.pry
 }
-end 
+end
 return newarray
 
 def find_a(array)
