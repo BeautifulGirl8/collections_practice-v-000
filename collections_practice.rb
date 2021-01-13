@@ -48,11 +48,11 @@ end
 
 
 def kesha_maker(array)
-  array.each { |x| 
+  array.each { |x|
   x.to_s.split(' ').MyString.insert 3, "$".join(' ')
-  puts x  
+  puts x
 }
-end 
+end
 
 
 def find_a(array)
