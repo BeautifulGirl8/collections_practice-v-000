@@ -51,12 +51,13 @@ end
 
 def kesha_maker(array)
   binding.pry
-  array.each { |x|
-  x.to_s.split(' ').MyString.insert 3, "$".join(' ')
-  puts x
+  newarray =[]
+  array.each { |name|
+MyString[3] ="$"
+  >> newarray
 }
+return newarray
 end
-
 
 def find_a(array)
 array.select { |str| str.start_with?('a') }
