@@ -48,13 +48,13 @@ end
 
 
 def kesha_maker(array)
-  array.each { |x| 
+  array.each { |x|
 myString[10] = "$"
  array.sort!
  array.join
          }
 end
-end 
+end
 
 
 
