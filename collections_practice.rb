@@ -48,6 +48,7 @@ end
 
 
 def kesha_maker(array)
+  binding.pry
   array.each { |x|
   x.to_s.split(' ').MyString.insert 3, "$".join(' ')
   puts x
